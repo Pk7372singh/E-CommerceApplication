@@ -16,7 +16,7 @@ function LoginSignup() {
   const login = async () => {
     console.log("Login Function Executed", formData);
     let resposnseData;
-    await fetch("http://localhost:4000/login", {
+    await fetch("http://13.60.215.210:4000/login", {
       method: "POST",
       headers: {
         Accept: "application/form-data",
@@ -36,7 +36,7 @@ function LoginSignup() {
   const signup = async () => {
     console.log("Signup Function Executed", formData);
     let resposnseData;
-    await fetch("http://localhost:4000/signup", {
+    await fetch("http://13.60.215.210:4000/signup", {
       method: "POST",
       headers: {
         Accept: "application/form-data",
